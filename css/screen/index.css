@@ -1,0 +1,40 @@
+.index-body{
+    background: linear-gradient(to right, rgb(142, 123, 197), Orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-sheet{
+    border-radius: 20px;
+    width: 60vh;
+    height: 90vh;
+    background-color: white;
+}
+
+.index-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: 100px;
+}
+
+.index-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.index-main form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    width: 70%;
+}
+
+.enter-form__btn{
+    border-radius: 15px;
+}
