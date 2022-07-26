@@ -23,9 +23,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	padding-top: 48px;
-	line-height: 1;
+body{
+	padding: 0px 30px;
 }
 ol, ul {
 	list-style: none;

@@ -3,5 +3,7 @@
 
 /* Screens */
 @import "screen/index.css";
+@import "screen/main.css";
 
 /* Components */
+@import "components/header_nav.css";

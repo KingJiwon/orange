@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Open+Sans:wght@300;400&display=swap');
+
 .index-body{
     background: linear-gradient(to right, rgb(142, 123, 197), Orange);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Jua', sans-serif;
 }
 
 .index-sheet{
     border-radius: 20px;
-    width: 60vh;
+    width: 40vw;
     height: 90vh;
     background-color: white;
 }
@@ -28,13 +31,29 @@
     padding-top: 50px;
 }
 
+.index-main__text{
+    font-size: 22px;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
 .index-main form{
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
     width: 70%;
+    
 }
 
-.enter-form__btn{
-    border-radius: 15px;
+.enter-from__btn{
+    background: linear-gradient(to right, Orange, rgb(142, 123, 197));
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Jua', sans-serif;
+    padding: 13px 0px;
+}
+
+.enter-from__btn:hover{
+    cursor: grab;
 }
