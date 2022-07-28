@@ -1,0 +1,17 @@
+.main-body{
+    background: linear-gradient(to right, rgb(142, 123, 197), Orange);
+}
+
+.main-main{
+    height: auto;
+}
+
+.main-span{
+    color: white;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
